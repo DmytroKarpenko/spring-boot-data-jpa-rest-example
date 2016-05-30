@@ -1,6 +1,6 @@
-package com.trimplement.data.repository;
+package com.dk.data.repository;
 
-import com.trimplement.data.model.PaymentInstrument;
+import com.dk.data.model.PaymentInstrument;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

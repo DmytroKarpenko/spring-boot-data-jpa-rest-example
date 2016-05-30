@@ -1,4 +1,4 @@
-package com.trimplement.data.model;
+package com.dk.data.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -49,23 +49,23 @@
                             <td width="20%">Account Holder</td>
                             <td th:text="${paymentInstrument.accountHolder}"></td>
                         </tr>
-                        <tr th:if="${paymentInstrument.type == T(com.trimplement.enums.PaymentInstrumentType).BankAccount}">
+                        <tr th:if="${paymentInstrument.type == T(com.dk.enums.PaymentInstrumentType).BankAccount}">
                             <td width="20%">IBAN</td>
                             <td th:text="${paymentInstrument.iban}"/>
                         </tr>
-                        <tr th:if="${paymentInstrument.type == T(com.trimplement.enums.PaymentInstrumentType).BankAccount}">
+                        <tr th:if="${paymentInstrument.type == T(com.dk.enums.PaymentInstrumentType).BankAccount}">
                             <td width="20%">BIC</td>
                             <td th:text="${paymentInstrument.bic}"/>
                         </tr>
-                        <tr th:if="${paymentInstrument.type == T(com.trimplement.enums.PaymentInstrumentType).CreditCard}">
+                        <tr th:if="${paymentInstrument.type == T(com.dk.enums.PaymentInstrumentType).CreditCard}">
                             <td width="20%">Scheme</td>
                             <td th:text="${paymentInstrument.scheme}"/>
                         </tr>
-                        <tr th:if="${paymentInstrument.type == T(com.trimplement.enums.PaymentInstrumentType).CreditCard}">
+                        <tr th:if="${paymentInstrument.type == T(com.dk.enums.PaymentInstrumentType).CreditCard}">
                             <td width="20%">PAN</td>
                             <td th:text="${paymentInstrument.pan}"/>
                         </tr>
-                        <tr th:if="${paymentInstrument.type == T(com.trimplement.enums.PaymentInstrumentType).CreditCard}">
+                        <tr th:if="${paymentInstrument.type == T(com.dk.enums.PaymentInstrumentType).CreditCard}">
                             <td width="20%">Expiry Date</td>
                             <td th:text="${paymentInstrument.expiryMonth + '/' + paymentInstrument.expiryYear}"></td>
                         </tr>
@@ -138,7 +138,7 @@
                         <div class="form-group">
                             <label for="bankName">Scheme</label>
                             <select name="scheme" class="form-control">
-                                <option th:each="scheme : ${T(com.trimplement.enums.CreditCardScheme).values()}"
+                                <option th:each="scheme : ${T(com.dk.enums.CreditCardScheme).values()}"
                                         th:text="${scheme}"></option>
                             </select>
                         </div>

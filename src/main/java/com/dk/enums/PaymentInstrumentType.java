@@ -1,4 +1,4 @@
-package com.trimplement.enums;
+package com.dk.enums;
 
 public enum PaymentInstrumentType {
     BankAccount,

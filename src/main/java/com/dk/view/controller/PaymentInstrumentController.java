@@ -1,9 +1,9 @@
-package com.trimplement.view.controller;
+package com.dk.view.controller;
 
-import com.trimplement.data.model.PaymentInstrument;
-import com.trimplement.enums.CreditCardScheme;
-import com.trimplement.enums.PaymentInstrumentStatus;
-import com.trimplement.service.PaymentInstrumentService;
+import com.dk.data.model.PaymentInstrument;
+import com.dk.enums.CreditCardScheme;
+import com.dk.enums.PaymentInstrumentStatus;
+import com.dk.service.PaymentInstrumentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

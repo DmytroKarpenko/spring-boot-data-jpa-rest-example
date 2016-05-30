@@ -1,7 +1,7 @@
-package com.trimplement.data.model;
+package com.dk.data.model;
 
-import com.trimplement.enums.PaymentInstrumentStatus;
-import com.trimplement.enums.PaymentInstrumentType;
+import com.dk.enums.PaymentInstrumentStatus;
+import com.dk.enums.PaymentInstrumentType;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

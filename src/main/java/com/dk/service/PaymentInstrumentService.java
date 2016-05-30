@@ -1,8 +1,8 @@
-package com.trimplement.service;
+package com.dk.service;
 
-import com.trimplement.data.model.PaymentInstrument;
-import com.trimplement.enums.CreditCardScheme;
-import com.trimplement.enums.PaymentInstrumentStatus;
+import com.dk.data.model.PaymentInstrument;
+import com.dk.enums.CreditCardScheme;
+import com.dk.enums.PaymentInstrumentStatus;
 
 import java.util.List;
 

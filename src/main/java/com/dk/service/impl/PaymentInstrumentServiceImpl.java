@@ -1,14 +1,14 @@
-package com.trimplement.service.impl;
+package com.dk.service.impl;
 
-import com.trimplement.data.model.AuditMessage;
-import com.trimplement.data.model.BankAccount;
-import com.trimplement.data.model.CreditCard;
-import com.trimplement.data.model.PaymentInstrument;
-import com.trimplement.data.repository.AuditMessageRepository;
-import com.trimplement.data.repository.PaymentInstrumentRepository;
-import com.trimplement.enums.CreditCardScheme;
-import com.trimplement.enums.PaymentInstrumentStatus;
-import com.trimplement.service.PaymentInstrumentService;
+import com.dk.data.model.AuditMessage;
+import com.dk.data.model.BankAccount;
+import com.dk.data.model.CreditCard;
+import com.dk.data.model.PaymentInstrument;
+import com.dk.data.repository.AuditMessageRepository;
+import com.dk.data.repository.PaymentInstrumentRepository;
+import com.dk.enums.CreditCardScheme;
+import com.dk.enums.PaymentInstrumentStatus;
+import com.dk.service.PaymentInstrumentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;

@@ -1,4 +1,4 @@
-package com.trimplement.data.model;
+package com.dk.data.model;
 
 import javax.persistence.*;
 import java.util.Date;
